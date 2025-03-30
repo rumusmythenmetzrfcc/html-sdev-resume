@@ -8,4 +8,8 @@ http-server<br>
 Open in Firefox<br>
 Print Page as A4 pdf with default margins<br>
 
-Made with IntelliJ IDEA Tooling
+Made with IntelliJ IDEA Tooling<br>
+
+Learning from:<br>
+Karl Stolley HTML and CSS: <a href="https://stolley.dev/">https://stolley.dev/</a><br>
+And from the great MDN documentation: <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core">MDN</a><br>
