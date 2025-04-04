@@ -1,9 +1,9 @@
 # html-sdev-resume<br>
-html software developer resume cv<br>
+html software developer resume cv and applica<br>
 
 Just install with Node Package Manager aka npm:<br>
 npm install -g http-server<br>
-cd ./site<br>
+cd ./site<br> or cd ./applica<br>
 http-server<br>
 Open in Firefox<br>
 Print Page as A4 pdf with default margins<br>

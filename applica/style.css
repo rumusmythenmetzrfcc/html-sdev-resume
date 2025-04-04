@@ -1,0 +1,141 @@
+
+/* ===== BASE STYLES ============ */
+b,
+strong {
+  font-weight: bold;
+}
+
+blockquote {
+  font-style: oblique;
+}
+
+.magic * p {
+  /*<1BLH>*/
+  padding-bottom: 0.0625cm;
+}
+
+h1 {
+  font-size: 144%;
+}
+
+/* texts */
+.header {
+  text-align: left;
+}
+.header > .contact-my > p::first-line {
+  font-weight: 600;
+  color: #3873b3;
+}
+.header > .contact-theirs > p::first-line {
+  font-weight: 600;
+  color: #3873b3;
+}
+.header * a {
+  text-decoration: none;
+  color: #222222;
+}
+.header * .link {
+  font-style: oblique;
+  color: #3873b3;
+}
+
+.date {
+  text-align: right;
+  font-style: oblique;
+}
+.title {
+  text-align: center;
+}
+.title > h1 {
+  font-weight: 600;
+  color: #3873b3;
+}
+.title > a {
+  font-size: 93%;
+  font-style: oblique;
+  text-decoration: none;
+  color: #3873b3;
+}
+.footer {
+  text-align: center;
+  font-size: 93%;
+}
+/* /text alignment */
+
+/* signature */
+.signature > img {
+  border: #ffffff 1px solid;
+  border-radius: 8px 8px 8px 8px;
+
+  width: 197px;
+  height: 49px;
+}
+/* /signature */
+
+
+/* ===== LAYOUT STYLES ========== */
+
+/* paddings
+0.125cm
+0.0625cm
+0.25cm
+0.5cm
+*/
+
+/* sheet-vertical-flex */
+.sheet {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  flex-shrink: 0;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+  border-top: #3873b3 3px solid;
+  padding-top: 0.125cm;
+}
+/* /sheet-vertical-flex */
+
+/* header-vertical-flex */
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.header > .contact-my {
+  flex: 1 0 auto;
+  padding-bottom: 0.125cm;
+  border-bottom: #3873b3 1px solid;
+}
+
+.header > .contact-theirs {
+  flex: 1 0 auto;
+  border-top: #3873b3 1px solid;
+  padding-top: 0.125cm;
+  padding-bottom: 0.125cm;
+  border-bottom: #3873b3 2px solid;
+}
+/* /header-horizontal-flex */
+
+/* content-vertical-flex */
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.date {
+  flex-shrink: 0;
+}
+.title {
+  flex-shrink: 0;
+}
+.magic {
+  flex: 1 0 auto;
+  /*padding-top: 0.25cm;*/
+}
+.outro {
+  flex-shrink: 0;
+}
+/* /content-horizontal-flex */
